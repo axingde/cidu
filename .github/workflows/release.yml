@@ -28,8 +28,3 @@ jobs:
             - Fix bugs
           draft: false
           prerelease: false
-
-      - name: Upload asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
